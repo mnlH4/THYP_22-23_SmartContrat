@@ -10,8 +10,8 @@ contract Destructible is Proprietaire {
         selfdestruct(propietaire);
     }
     
-    function detruireEtEnvoyer(address _destinataire) public uniquementProprietaire {
-        selfdestruct(_destinataire);
+    function detruireEtEnvoyer(address _destinatair) public uniquementProprietaire {
+        selfdestruct(_destinatair);
         
     }
 }

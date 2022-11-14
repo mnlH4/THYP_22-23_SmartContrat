@@ -11,7 +11,7 @@ contract Propietaire {
         
     }
 
-    function Propietaire() public {
+    function Propietair() public {
         propietaire = msg.sender;
     }
 
